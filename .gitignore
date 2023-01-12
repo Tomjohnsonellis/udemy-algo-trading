@@ -2,6 +2,7 @@
 .idea/
 .ipynb_checkpoints/
 oanda.cfg
+course content/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

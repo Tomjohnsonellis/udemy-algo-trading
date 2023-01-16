@@ -11,7 +11,7 @@ _"A dollar today is worth more than a dollar tomorrow."_
 - ***r*** - Interest Rate (per period)
 - ***n*** - Number of periods
 
-![Future Value - Compound Interest](http://www.sciweavers.org/upload/Tex2Img_1673610975/eqn.png)
+![Future Value - Compound Interest](equations/futurevalue.png)
 
 When we want to know how much something will be valued at after accruing interest for some amount of time, we use the above formula.
 
@@ -21,7 +21,7 @@ E.g. *"I have $100, and put it in an investment that pays 5% interest per years,
 
 We can of course rearrange the formula to calculate what initial investment is needed to achieve a certain value.
 
-![Present Value - Compound Interest](http://www.sciweavers.org/upload/Tex2Img_1673611570/eqn.png)
+![Present Value - Compound Interest](equations/presentvalue.png)
 
 E.g. *"I want my day trading account to have $1000 in it after 6 months, I believe I can make 3% profit per month, how much do I need to invest?"*
 
@@ -37,7 +37,7 @@ The cost of an initial investment plus all the benefits we expect to get from it
 - ***CF*** - Cash Flow
 - ***r*** - Interest rate
 
-![Net Present Value](http://www.sciweavers.org/upload/Tex2Img_1673614910/eqn.png)
+![Net Present Value](equations/netpresentvalue.png)
 
 Let's say we buy a machine for $100 and expect it to increase our cash flows by:
 1. $10 in year 1
@@ -60,9 +60,9 @@ NPV = 39.51
 
 Great, now we know the NPV of this project, how do we decide whether or not to do it? Simply:
 
-![NPV Decision](http://www.sciweavers.org/upload/Tex2Img_1673615742/eqn.png)
+![NPV Decision](equations/npvgt0.png)
 
-Or in words: ***"Is this profitable?"***
+Or in English: ***"Is this profitable?"***
 
 
 

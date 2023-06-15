@@ -54,3 +54,16 @@ Performance Attribution - The * 10,000 is just for converting from prices to pip
 |Net Profit|$16.00|1.60|0.0136%|
 
 Almost half our profit is taken by trading costs! So whatever strategy we use needs to be good enough to cover trading costs and then some!
+
+# Margin and Leverage
+
+Leverage allows traders to create trades larger than their account balance, magnifying both losses and profits.
+A margin requirement of 3.3% for example allows you to perform trades 30x your account value.
+
+OANDA's leverage amounts are available [here](https://www.oanda.com/uk-en/trading/spreads-margin/).
+
+Leverage magnifies everything, so great if your strategy is performing well, and awful if it is performing poorly. Just make good use of it.
+
+If trades are not going your way, margin will be used and if you run out of available margin, the broker WILL CLOSE ALL OPEN TRADES AT SPOT RATE.
+This may be an issue if you have multiple trades open at once, all using up various amounts of leverage.
+The broker will not shoulder any risk for you, so avoid margin closeout.

@@ -11,8 +11,6 @@ _"A dollar today is worth more than a dollar tomorrow."_
 - ***r*** - Interest Rate (per period)
 - ***n*** - Number of periods
 
-![Future Value - Compound Interest](equations/futurevalue.png)
-
 $$ FV = PV(1+r)^2 $$
 
 When we want to know how much something will be valued at after accruing interest for some amount of time, we use the above formula.
@@ -24,8 +22,6 @@ E.g. *"I have $100, and put it in an investment that pays 5% interest per years,
 $$ FV = 100(1 + 0.05)^5 \approx $127.63 $$
 
 We can of course rearrange the formula to calculate what initial investment is needed to achieve a certain value.
-
-![Present Value - Compound Interest](equations/presentvalue.png)
 
 $$ PV = \frac{FV}{(1+r)^n} $$
 
@@ -42,8 +38,6 @@ The cost of an initial investment plus all the benefits we expect to get from it
 - ***N*** - Total number of time period (E.g. 5 years)
 - ***CF*** - Cash Flow
 - ***r*** - Interest rate
-
-![Net Present Value](equations/netpresentvalue.png)
 
 $$ NPV = I_{0} + \sum_{t=1}^N \frac{CF_{t}}{(1+r)^t} $$ 
 
@@ -67,8 +61,6 @@ NPV = -100 + 139.51
 NPV = 39.51
 
 Great, now we know the NPV of this project, how do we decide whether or not to do it? Simply:
-
-![NPV Decision](equations/npvgt0.png)
 
 $$ NPV > 0 $$
 
